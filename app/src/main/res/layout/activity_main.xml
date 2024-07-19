@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Quiz Category"
+        android:textSize="24sp"
+        android:textColor="?attr/colorOnBackground"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dbms_button"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Data Base Management System"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/os_button"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Operating System"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cn_button"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Computer Networks"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/coa_button"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Computer Organization and Architecture"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/eng_math_button"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Engineering Maths"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/data_structure_button"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Data Structure"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/programming_button"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Programming"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+
+
+        <TextView
+            android:id="@+id/developer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed by: Dhyey N. Bhatt"
+            android:textSize="12sp"
+            android:textColor="#808080"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

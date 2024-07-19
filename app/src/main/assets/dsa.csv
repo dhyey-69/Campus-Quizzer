@@ -1,0 +1,20 @@
+Question,Option1,Option2,Option3,Option4,Answer
+What is an array?,Data structure to store elements of the same type,A type of file,A type of device,A type of software,Data structure to store elements of the same type
+What is a linked list?,Data structure where elements are linked using pointers,A type of equation,A type of database,A type of protocol,Data structure where elements are linked using pointers
+What is a stack?,Data structure with Last In First Out (LIFO) order,A type of number,A type of variable,A type of operation,Data structure with Last In First Out (LIFO) order
+What is a queue?,Data structure with First In First Out (FIFO) order,A type of equation,A type of database,A type of protocol,Data structure with First In First Out (FIFO) order
+What is a binary tree?,Tree data structure where each node has at most two children,A type of file,A type of device,A type of software,Tree data structure where each node has at most two children
+What is a heap?,Tree-based data structure with a specific ordering property,A type of number,A type of variable,A type of operation,Tree-based data structure with a specific ordering property
+What is a hash table?,Data structure that maps keys to values,A type of equation,A type of database,A type of protocol,Data structure that maps keys to values
+What is graph in data structure?,Non-linear data structure consisting of nodes and edges,A type of number,A type of variable,A type of operation,Non-linear data structure consisting of nodes and edges
+What is a priority queue?,Data structure where each element has a priority,A type of file,A type of device,A type of software,Data structure where each element has a priority
+What is a trie?,Tree data structure used for efficient retrieval of keys,A type of equation,A type of database,A type of protocol,Tree data structure used for efficient retrieval of keys
+What is AVL tree?,Self-balancing binary search tree,A type of number,A type of variable,A type of operation,Self-balancing binary search tree
+What is a B-tree?,Self-balancing tree data structure,A type of file,A type of device,A type of software,Self-balancing tree data structure
+What is a red-black tree?,Self-balancing binary search tree,A type of equation,A type of database,A type of protocol,Self-balancing binary search tree
+What is a segment tree?,Tree data structure for storing intervals,A type of number,A type of variable,A type of operation,Tree data structure for storing intervals
+What is a trie?,Tree data structure used for efficient retrieval of keys,A type of equation,A type of database,A type of protocol,Tree data structure used for efficient retrieval of keys
+What is AVL tree?,Self-balancing binary search tree,A type of number,A type of variable,A type of operation,Self-balancing binary search tree
+What is a B-tree?,Self-balancing tree data structure,A type of file,A type of device,A type of software,Self-balancing tree data structure
+What is a red-black tree?,Self-balancing binary search tree,A type of equation,A type of database,A type of protocol,Self-balancing binary search tree
+What is a segment tree?,Tree data structure for storing intervals,A type of number,A type of variable,A type of operation,Tree data structure for storing intervals

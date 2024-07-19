@@ -1,0 +1,21 @@
+Question,Option1,Option2,Option3,Option4,Answer
+What is TCP/IP?,A protocol suite,A type of cable,A network topology,A file format,A protocol suite
+What is OSI model?,A reference model,A type of encryption,A network device,A database system,A reference model
+What is IP address?,An identifier for a device on a network,A type of router,A type of firewall,A type of server,An identifier for a device on a network
+What is DNS?,Domain Name System,A network protocol,A type of cable,A type of software,Domain Name System
+What is HTTP?,Hypertext Transfer Protocol,A type of cable,A type of encryption,A database system,Hypertext Transfer Protocol
+What is UDP?,User Datagram Protocol,A type of router,A type of firewall,A type of server,User Datagram Protocol
+What is Ethernet?,A network protocol,A type of encryption,A type of cable,A type of software,A type of cable
+What is routing in CN?,Process of forwarding data packets between networks,Method to encrypt data in transit,Protocol to access remote systems,Process to format disk drives,Process of forwarding data packets between networks
+What is subnet mask?,A number that defines the network portion of an IP address,A method to compress network traffic,Feature to optimize network protocols,Method to encrypt data in transit,A number that defines the network portion of an IP address
+What is ARP?,Address Resolution Protocol,A type of router,A type of firewall,A type of server,Address Resolution Protocol
+What is NAT?,Network Address Translation,A network protocol,A type of cable,A type of software,Network Address Translation
+What is DHCP?,Dynamic Host Configuration Protocol,A type of encryption,A type of cable,A database system,Dynamic Host Configuration Protocol
+What is FTP?,File Transfer Protocol,A type of router,A type of firewall,A type of server,File Transfer Protocol
+What is ICMP?,Internet Control Message Protocol,A network protocol,A type of cable,A type of software,Internet Control Message Protocol
+What is VLAN?,Virtual Local Area Network,A type of encryption,A type of cable,A type of software,Virtual Local Area Network
+What is SSL?,Secure Socket Layer,A type of router,A type of firewall,A type of server,Secure Socket Layer
+What is ICMP?,Internet Control Message Protocol,A network protocol,A type of cable,A type of software,Internet Control Message Protocol
+What is FTP?,File Transfer Protocol,A type of router,A type of firewall,A type of server,File Transfer Protocol
+What is VLAN?,Virtual Local Area Network,A type of encryption,A type of cable,A type of software,Virtual Local Area Network
+What is SSL?,Secure Socket Layer,A type of router,A type of firewall,A type of server,Secure Socket Layer

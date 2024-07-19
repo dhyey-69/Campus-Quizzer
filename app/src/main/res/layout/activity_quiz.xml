@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#ffff"
+    tools:context=".QuizActivity">
+
+    <TextView
+        android:id="@+id/timer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="?attr/colorOnBackground"
+        android:paddingBottom="8dp"
+        android:text="Time Left: 1:00"/>
+
+    <LinearLayout
+        android:id="@+id/vertical_center_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/question_number_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="Question 1 out of 10"
+            android:textColor="?attr/colorOnBackground"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/question_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="?attr/colorOnBackground"
+            android:paddingTop="16dp"
+            android:text="Sample question text"
+            />
+
+        <RadioGroup
+            android:id="@+id/options_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="16dp">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/option1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Option 1"
+                android:textSize="16sp"
+                android:padding="8dp"/>
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/option2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Option 2"
+                android:textSize="16sp"
+                android:padding="8dp"/>
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/option3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Option 3"
+                android:textSize="16sp"
+                android:padding="8dp"/>
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/option4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Option 4"
+                android:textSize="16sp"
+                android:padding="8dp"/>
+        </RadioGroup>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="16dp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:layout_marginTop="16dp"
+            android:visibility="gone"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+        <TextView
+            android:id="@+id/developer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed by: Dhyey N. Bhatt"
+            android:textSize="12sp"
+            android:textColor="#808080"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

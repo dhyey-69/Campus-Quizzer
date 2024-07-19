@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#ffff"
+    tools:context=".ScoreActivity">
+
+    <TextView
+        android:id="@+id/message_prefix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="?attr/colorOnBackground"
+        android:layout_marginBottom="8dp"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/score_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="?attr/colorOnBackground"
+        android:layout_marginBottom="8dp"
+        android:text="Score"/>
+
+    <TextView
+        android:id="@+id/total_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="?attr/colorOnBackground"
+        android:layout_marginBottom="16dp"
+        android:text="Total Questions"/>
+
+    <ProgressBar
+        android:id="@+id/score_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:progress="50"
+        android:max="100"
+        android:progressTint="?attr/colorPrimary"
+        android:indeterminate="false"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/back_to_home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Home"
+        android:layout_marginTop="16dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+    <TextView
+        android:id="@+id/developer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed by: Dhyey N. Bhatt"
+        android:textSize="12sp"
+        android:textColor="#808080"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

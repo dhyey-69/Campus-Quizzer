@@ -1,0 +1,20 @@
+Question,Option1,Option2,Option3,Option4,Answer
+What is CPU?,Central Processing Unit,A type of memory,A type of storage,A type of device,Central Processing Unit
+What is cache memory?,High-speed memory close to CPU for fast access,A type of disk drive,A type of network device,A type of software,High-speed memory close to CPU for fast access
+What is a register in COA?,Fastest form of computer storage,A type of operating system,A type of network protocol,A type of database system,Fastest form of computer storage
+What is pipelining in COA?,Technique to overlap CPU tasks,A type of encryption,A type of cable,A type of software,Technique to overlap CPU tasks
+What is RAID in COA?,Redundant Array of Independent Disks,A type of memory,A type of router,A type of server,Redundant Array of Independent Disks
+What is RISC?,Reduced Instruction Set Computer,A type of memory,A type of router,A type of server,Reduced Instruction Set Computer
+What is CISC?,Complex Instruction Set Computer,A type of memory,A type of cable,A type of software,Complex Instruction Set Computer
+What is DMA?,Direct Memory Access,A type of encryption,A type of cable,A type of software,Direct Memory Access
+What is MIPS in COA?,Million Instructions Per Second,A type of memory,A type of router,A type of server,Million Instructions Per Second
+What is cache coherence in COA?,Consistency mechanism across cache memories,A type of encryption,A type of cable,A type of software,Consistency mechanism across cache memories
+What is vector processing in COA?,SIMD technique for processing vectors of data,A type of memory,A type of network device,A type of software,SIMD technique for processing vectors of data
+What is pipelining in COA?,Technique to overlap CPU tasks,A type of encryption,A type of cable,A type of software,Technique to overlap CPU tasks
+What is RAID in COA?,Redundant Array of Independent Disks,A type of memory,A type of router,A type of server,Redundant Array of Independent Disks
+What is RISC?,Reduced Instruction Set Computer,A type of memory,A type of router,A type of server,Reduced Instruction Set Computer
+What is CISC?,Complex Instruction Set Computer,A type of memory,A type of cable,A type of software,Complex Instruction Set Computer
+What is DMA?,Direct Memory Access,A type of encryption,A type of cable,A type of software,Direct Memory Access
+What is MIPS in COA?,Million Instructions Per Second,A type of memory,A type of router,A type of server,Million Instructions Per Second
+What is cache coherence in COA?,Consistency mechanism across cache memories,A type of encryption,A type of cable,A type of software,Consistency mechanism across cache memories
+What is vector processing in COA?,SIMD technique for processing vectors of data,A type of memory,A type of network device,A type of software,SIMD technique for processing vectors of data
